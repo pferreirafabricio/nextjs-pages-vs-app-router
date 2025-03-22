@@ -24,7 +24,7 @@
 | **Performance**                           | Optimized, but lacks streaming and React Server Component benefits.                       | More optimized due to Server Components, streaming, and reduced JavaScript on the client.    |
 | **Authentication Handling**               | Handled using API routes or middleware.                                                   | More optimized with Server Actions and middleware for authentication.                        |
 | **File Naming**                           | Uses `.js` or `.tsx` inside `pages/`.                                                     | Uses `.ts`, `.tsx`, or `.js` inside `app/` with `page.tsx`, `layout.tsx`, and `route.ts`.    |
-| **Migration Complexity**                  | Older Next.js applications use this. No migration needed.                                 | Requires refactoring when moving from `pages/` to `app/`.                                    |
+| **Migration Complexity**                  | Older Next.js applications use this. No migration is needed.                                 | Requires refactoring when moving from `pages/` to `app/`.                                    |
 | **Recommended For**                       | Small to medium projects or those that need traditional SSR and CSR.                      | Modern applications that benefit from React Server Components and better performance.        |
 
 ## References
