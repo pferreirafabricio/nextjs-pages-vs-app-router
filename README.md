@@ -26,3 +26,8 @@
 | **File Naming**                           | Uses `.js` or `.tsx` inside `pages/`.                                                     | Uses `.ts`, `.tsx`, or `.js` inside `app/` with `page.tsx`, `layout.tsx`, and `route.ts`.    |
 | **Migration Complexity**                  | Older Next.js applications use this. No migration needed.                                 | Requires refactoring when moving from `pages/` to `app/`.                                    |
 | **Recommended For**                       | Small to medium projects or those that need traditional SSR and CSR.                      | Modern applications that benefit from React Server Components and better performance.        |
+
+## References
+
+- [Next.js: App Router vs Pages Router — What You Need to Know (2024)](https://medium.com/@tanzim3421/next-js-app-router-vs-pages-router-what-you-need-to-know-202-69a885ccaa56)
+- [What is different between App Router and Pages Router in Next.js?](https://stackoverflow.com/questions/76570208/what-is-different-between-app-router-and-pages-router-in-next-js)
